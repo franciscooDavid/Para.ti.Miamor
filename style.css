@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(oso.jpg);
+    background-size: cover  ; 
+    background-repeat: no-repeat;
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    background-color: rgba(138, 43, 226, 0.9); /* Fondo morado con opacidad */
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 80%;
+    max-width: 600px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.menu {
+    font-size: 3rem;
+    color: white;
+    font-weight: bold;
+    font-family: 'Cambria', 'Cochin', 'Georgia', 'Times', 'Times New Roman', serif;
+    margin-bottom: 20px;
+}
+
+.question {
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.options label {
+    display: block;
+    font-size: 1.5rem;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.answer {
+    font-size: 1.5rem;
+    color: white;
+    margin-top: 20px;
+}
+
+.answer a {
+    color: #FFD700; /* Color dorado */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.answer a:hover {
+    text-decoration: underline;
+}
